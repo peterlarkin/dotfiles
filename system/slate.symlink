@@ -48,13 +48,13 @@ bind pad3:${hyper} ${righthalf}
 bind 3:${hyper} ${righthalf}
 
 # Keypad row 46 = thirds
-alias leftthird move screenOriginX;screenOriginY screenSizeX/3;screenSizeY
-bind pad4:${hyper} ${leftthird}
-bind 4:${hyper} ${leftthird}
+alias lefttophalf move screenOriginX;screenOriginY screenSizeX/2;screenSizeY/2
+bind pad4:${hyper} ${lefttophalf}
+bind 4:${hyper} ${lefttophalf}
 
-alias righttwothirds move screenOriginX+screenSizeX/3;screenOriginY 2*screenSizeX/3;screenSizeY
-bind pad6:${hyper} ${righttwothirds}
-bind 6:${hyper} ${righttwothirds}
+alias righthalftop move screenOriginX+screenSizeX/2;screenOriginY screenSizeX/2;screenSizeY/2
+bind pad6:${hyper} ${righthalftop}
+bind 6:${hyper} ${righthalftop}
 
 # Keypad row 79 = eighths
 alias leftfifth move screenOriginX;screenOriginY screenSizeX/5;screenSizeY
