@@ -1,39 +1,36 @@
 "*":
   editor:
     showIndentGuide: true
-    fontFamily: "Menlo"
+    fontFamily: "PT Mono"
     invisibles: {}
-    fontSize: 15
+    fontSize: 14
+    showInvisibles: true
     softWrapAtPreferredLineLength: true
+    softWrap: true
+    tabLength: 2
   core:
-    ignoredNames: [
-      ".bundle"
-      ".git"
-      "log"
-      "repositories"
-      "tmp"
-      "vendor"
-    ]
     themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "one-light-ui"
+      "one-dark-syntax"
     ]
-    hideGitIgnoredFiles: true
-    disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".DS_Store"
+      ".sass-cache"
     ]
-    followSymlinks: false
-  "spell-check":
-    grammars: [
-      "text.plain"
-      "source.gfm"
-      "text.git-commit"
-    ]
+    projectHome: "/Users/peter/Sites/"
+  "release-notes":
+    viewedVersion: "0.76.0"
   welcome:
     showOnStartup: false
-  "release-notes":
-    viewedVersion: "0.89.0"
-  "go-plus":
-    goPath: "/Users/holman/Code/go"
+  tabs:
+    usePreviewTabs: true
+  emmet: {}
+  "one-light-ui": {}
+  "atom-material-ui":
+    panels: {}
+    ui: {}
+    tabs: {}
+    treeView:
+      compactTreeView: true
