@@ -3,9 +3,7 @@
     showIndentGuide: true
     fontFamily: "PT Mono"
     invisibles: {}
-    fontSize: 14
     showInvisibles: true
-    softWrapAtPreferredLineLength: true
     softWrap: true
     tabLength: 2
   core:
@@ -20,6 +18,9 @@
       ".sass-cache"
     ]
     projectHome: "/Users/peter/Sites/"
+    disabledPackages: [
+      "exception-reporting"
+    ]
   "release-notes":
     viewedVersion: "0.76.0"
   welcome:
