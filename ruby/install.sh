@@ -1,4 +1,4 @@
 echo '> installing Rubygems'
 
-gem install sass
-gem install compass
+sudo gem install sass
+sudo gem install compass
