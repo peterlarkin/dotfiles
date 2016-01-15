@@ -137,7 +137,13 @@ install_dotfiles () {
   done
 }
 
+install_fonts () {
+  info 'installing fonts'
+  rsync --exclude ".DS_Store" --exclude "LICENSE" -av --no-perms "${DOTFILES_ROOT}/fonts/" ~/Library/Fonts/
+}
+
 setup_gitconfig
+install_fonts
 install_dotfiles
 
 # If we're on a Mac, let's install and setup homebrew.
