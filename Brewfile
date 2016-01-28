@@ -6,6 +6,7 @@ tap 'homebrew/bundle'
 cask 'xquartz'
 
 brew 'ack'
+brew 'awscli'
 brew 'coreutils'
 brew 'go'
 brew 'grc'
