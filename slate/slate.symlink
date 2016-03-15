@@ -38,32 +38,32 @@ alias full move screenOriginX;screenOriginY screenSizeX;screenSizeY
 bind pad5:${hyper} ${full}
 bind 5:${hyper} ${full}
 
-# Keypad row 13 = halves
+# Keypad row 13 = bottom quarters
+alias leftbottomhalf move screenOriginX;screenOriginY+screenSizeY/2 screenSizeX/2;screenSizeY/2
+bind pad1:${hyper} ${leftbottomhalf}
+bind 1:${hyper} ${leftbottomhalf}
+
+alias righthalftop move screenOriginX+screenSizeX/2;screenOriginY+screenSizeY/2 screenSizeX/2;screenSizeY/2
+bind pad3:${hyper} ${righthalftop}
+bind 3:${hyper} ${righthalftop}
+
+# Keypad row 46 = halves
 alias lefthalf move screenOriginX;screenOriginY screenSizeX/2;screenSizeY
-bind pad1:${hyper} ${lefthalf}
-bind 1:${hyper} ${lefthalf}
+bind pad4:${hyper} ${lefthalf}
+bind 4:${hyper} ${lefthalf}
 
 alias righthalf move screenOriginX+screenSizeX/2;screenOriginY screenSizeX/2;screenSizeY
-bind pad3:${hyper} ${righthalf}
-bind 3:${hyper} ${righthalf}
+bind pad6:${hyper} ${righthalf}
+bind 6:${hyper} ${righthalf}
 
-# Keypad row 46 = thirds
+# Keypad row 79 = top quarters
 alias lefttophalf move screenOriginX;screenOriginY screenSizeX/2;screenSizeY/2
-bind pad4:${hyper} ${lefttophalf}
-bind 4:${hyper} ${lefttophalf}
+bind pad7:${hyper} ${lefttophalf}
+bind 7:${hyper} ${lefttophalf}
 
 alias righthalftop move screenOriginX+screenSizeX/2;screenOriginY screenSizeX/2;screenSizeY/2
-bind pad6:${hyper} ${righthalftop}
-bind 6:${hyper} ${righthalftop}
-
-# Keypad row 79 = eighths
-alias leftfifth move screenOriginX;screenOriginY screenSizeX/5;screenSizeY
-bind pad7:${hyper} ${leftfifth}
-bind 7:${hyper} ${leftfifth}
-
-alias rightfourfifths move (screenOriginX+screenSizeX/5)+14;screenOriginY (4*screenSizeX/5)-14;screenSizeY
-bind pad9:${hyper} ${rightfourfifths}
-bind 9:${hyper} ${rightfourfifths}
+bind pad9:${hyper} ${righthalftop}
+bind 9:${hyper} ${righthalftop}
 
 # Keypad column 28 = top and bottom halves
 alias tophalf move screenOriginX;screenOriginY screenSizeX;screenSizeY/2
@@ -84,25 +84,22 @@ bind right:cmd;ctrl    focus right
 bind left:cmd;ctrl     focus left
 bind up:cmd;ctrl       focus behind
 bind down:cmd;ctrl     focus behind
-bind ]:alt;shift       focus right
-bind [:alt;shift       focus left
-bind =:alt;shift       focus behind
 
 # Throw
-bind ]:${hyper} throw right resize full
-bind [:${hyper}  throw left resize full
+# bind ]:${hyper} throw right resize full
+# bind [:${hyper}  throw left resize full
 
 # Resize
-bind right:alt;cmd       resize +5% +0
-bind left:alt;cmd        resize -5% +0
-bind up:alt;cmd          resize +0   -5%
-bind down:alt;cmd        resize +0   +5%
+# bind right:alt;cmd       resize +5% +0
+# bind left:alt;cmd        resize -5% +0
+# bind up:alt;cmd          resize +0   -5%
+# bind down:alt;cmd        resize +0   +5%
 
 # Nudge
-bind right:${hyper} nudge +10% +0
-bind left:${hyper}  nudge -10% +0
-bind up:${hyper}    nudge +0   -10%
-bind down:${hyper}  nudge +0   +10%
+# bind right:${hyper} nudge +10% +0
+# bind left:${hyper}  nudge -10% +0
+# bind up:${hyper}    nudge +0   -10%
+# bind down:${hyper}  nudge +0   +10%
 
 # Push
 # bind right:ctrl;cmd  push right bar-resize:screenSizeX/3
