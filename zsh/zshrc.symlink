@@ -51,5 +51,10 @@ function {
     source $file
   done
 
+  # Bind alt left/right to skip words
+  bindkey -e
+  bindkey '^[[1;9C' forward-word
+  bindkey '^[[1;9D' backward-word
+
   unset config_files
 }
