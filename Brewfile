@@ -1,11 +1,13 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
+tap 'homebrew/php'
 
 cask 'xquartz'
 
 brew 'ack'
 brew 'awscli'
+brew 'composer'
 brew 'coreutils'
 brew 'go'
 brew 'grc'
