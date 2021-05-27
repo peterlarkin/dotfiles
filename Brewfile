@@ -21,7 +21,6 @@ brew 'postgresql'
 brew 'ruby-build'
 brew 'rbenv'
 brew 'spark'
-brew 'unrar'
 brew 'wget'
 brew 'yarn'
 
