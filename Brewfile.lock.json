@@ -212,6 +212,69 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "google-drive": {
+        "version": "48.0.11",
+        "options": {
+          "full_name": "google-drive",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "microsoft-office": {
+        "version": "16.49.21050901",
+        "options": {
+          "full_name": "microsoft-office",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "notion": {
+        "version": "2.0.16",
+        "options": {
+          "full_name": "notion",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "sequel-ace": {
+        "version": "3.3.2,3030",
+        "options": {
+          "full_name": "sequel-ace",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "telegram-desktop": {
+        "version": "2.7.4",
+        "options": {
+          "full_name": "telegram-desktop",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "visual-studio-code": {
+        "version": "1.56.2",
+        "options": {
+          "full_name": "visual-studio-code",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "zoom": {
+        "version": "5.6.6.950",
+        "options": {
+          "full_name": "zoom",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "brew": {
@@ -717,10 +780,10 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.1.9",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "2f1202b2dbbb4239ea53bc664c2a122234bafe65",
-        "CLT": "12.5.0.0.1.1617976050",
+        "Homebrew/homebrew-core": "588b1abf753e7d751b44cb72e9c24c70fb93bae7",
+        "CLT": "12.5.0.22.9",
         "Xcode": "12.5",
-        "macOS": "11.2.3"
+        "macOS": "11.4"
       }
     }
   }
